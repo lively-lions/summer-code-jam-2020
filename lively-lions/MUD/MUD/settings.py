@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # app
+    'dungeon.apps.DungeonConfig',
+    'objects.apps.ObjectsConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [
